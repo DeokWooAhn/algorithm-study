@@ -1,7 +1,5 @@
 import java.util.*;
 
-// 문자 찾기
-
 public class Main {
     public int solution(String str, char t) {
         int answer = 0;
