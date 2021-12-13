@@ -6,7 +6,7 @@ public class Main {
 
 	    public String solution(String str) {
 	        String answer = "";
-	        int max = 0;
+	        int max = 0; //int max = Integer.MIN_VALUE; 가장 작은 값으로 해도 됌
 	        String[] s = str.split(" ");
 	        
 	        for(String x : s) {
@@ -18,7 +18,7 @@ public class Main {
 	        }
 	        
 //	        int pos;
-//	        while((pos = str.indexOf(" ")) != 1) {
+//	        while((pos = str.indexOf(" ")) != -1) {
 //	        	String tmp = str.substring(0, pos);
 //	        	int len = tmp.length();
 //	        	if(len > max) {
